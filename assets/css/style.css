@@ -3145,6 +3145,11 @@ img, iframe, video { max-width: 100% !important; }
   object-fit: cover;
   object-position: right center;
 }
+@media (max-width: 541px){
+  .manifesto .manifesto-img{
+  height: 280px;
+}
+}
 .manifesto{
   padding-top: 30px;
   padding-bottom: 95px;
@@ -3158,4 +3163,15 @@ img, iframe, video { max-width: 100% !important; }
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width:540px){
+  .home .hero{
+  min-height: 0px;
+}
+  .home .hero-bg{
+    opacity: 0;
+  }
+  .home > section.hero {
+    background: #1a0f0a;
+}
 }
